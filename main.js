@@ -7,8 +7,6 @@ const deck = document.querySelector('#cardDeck');
 let guesses = 0;
 let counter = document.querySelector('#guesses');
 
-var openedCards = [];
-
 let gameStarted = false; 
 
 // flipping deck back at restart
