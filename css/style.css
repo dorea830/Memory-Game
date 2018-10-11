@@ -1,0 +1,133 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #e14c46;
+}
+
+.scores {
+	position: fixed;
+	top: 2%;
+	left: 83%;
+	display: inline-block;
+}
+
+#startButton {
+	background-color: #590400;
+	border-radius: 10px;
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+	position: fixed;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+#restartButton {
+	background-color: #590400;
+	border-radius: 10px;
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+	position: fixed;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+
+#timer  {
+	background-color: #590400;
+	border-radius: 10px;
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+}
+
+#guesses {
+	margin: 20px;
+}
+
+.tac {
+	text-align: center;
+}
+
+p {
+	color: #faa19e;
+	font-size: 20px;
+	margin: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.card {
+	background-color: #aa3939;
+/*	width: 150px;
+	height: 200px;*/
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #590400;
+	  width: calc(100% / 6 - 10px);
+  height: calc(100% / 2 - 10px);
+  margin: 10px;
+  position: relative;
+  transition: 1s ease-in;
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+	width: 80px;
+	position: absolute;
+	backface-visibility: hidden;
+	cursor: pointer;
+}
+
+.front {
+	transform: rotateY(180deg);
+}
+
+.back {
+  transform: rotateY(0deg);
+}
+
+.deck {
+	justify-content: center;
+	width: 700px;
+  	height: 300px;
+  	margin: 0;
+  	display: flex;
+  	flex-wrap: wrap;
+  	perspective: 1000px;
+  	position: absolute;
+  	left: 50%;
+  	transform: translate(-50%, 0);
+
+}
+
+.hide {
+	visibility: hidden;
+}
+
+#win {
+	margin: 40px;
+} 
+
+h1 {
+	margin: 40px;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+

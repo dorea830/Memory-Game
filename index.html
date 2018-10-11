@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doris Mui Midterm Game</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="win" class="hide">
+	<h1 class="tac">YOU WON!</h1>
+	<p id="winTime"></p>
+	<p id="winGuesses"></p>
+	<div onclick="restartGame()" id="restartButton">
+		<p class="tac">RESTART</p>
+	</div>
+</div>
+
+<div id="game">
+	<div onclick="startGame()" id="startButton">
+		<p class="tac">START</p>
+	</div>
+<section class="scores">
+	<div id="timer">
+		<p class="tac">Time: 0mins 0secs</p>
+	</div>
+	<div id="guesses">
+		<p class="tac">Guesses: 0</p>
+	</div>
+</section>
+<section class="deck" id="cardDeck">
+
+	<div class="card" id="1">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/bulbasaur.png" alt="bulbasaur" class="front">
+	</div>
+
+	<div class="card" id="1">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/bulbasaur.png" alt="bulbasaur" class="front">
+	</div>
+
+	<div class="card" id="2">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/cinccino.png" alt="cinccino" class="front">
+	</div>
+
+	<div class="card" id="2">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/cinccino.png" alt="cinccino" class="front">
+	</div>
+
+	<div class="card" id="3">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/froakie.png" alt="froakie" class="front">
+	</div>
+
+	<div class="card" id="3">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/froakie.png" alt="froakie" class="front">
+	</div>
+
+	<div class="card" id="4">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/litten.png" alt="litten" class="front">
+	</div>
+
+	<div class="card" id="4">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/litten.png" alt="litten" class="front">
+	</div>
+
+	<div class="card" id="5">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/pikachu.png" alt="pikachu" class="front">
+	</div>
+
+	<div class="card" id="5">
+		<img src="img/pokeball.png" alt="pokeball" class="back">
+		<img src="img/pikachu.png" alt="pikachu" class="front">
+	</div>
+</div>
+
+</div>
+
+</html>
+
+<script src="main.js"></script>
+
+</body>
